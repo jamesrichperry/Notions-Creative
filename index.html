@@ -33,6 +33,12 @@
     ul { list-style: none; }
     input, select, textarea, button { font-family: var(--font-body); }
 
+<div class="corner-logo" id="cornerLogo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <video autoplay loop muted playsinline>
+    <source src="./Animated logo.mp4" type="video/mp4" />
+  </video>
+</div>
+    
     /* REVEAL */
     .reveal { opacity: 0; transform: translateY(32px); transition: opacity 0.75s var(--ease-smooth), transform 0.75s var(--ease-smooth); }
     .reveal.in-view { opacity: 1; transform: translateY(0); }
